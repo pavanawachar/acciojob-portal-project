@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.navbar {
+  width: 100vw;
+  height: 20%;
+  display: flex;
+  justify-content: space-a;
+}
+.eg1 {
+  border-right: 2px solid #dadada;
+}
+.nav > img {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav_Meanu {
+  padding-left: 180px;
+}
+
+.nav_Meanu > span {
+  text-decoration: #4f4f4f;
+  padding-left: 30px;
+  padding-right: 12px;
+}
+.link_button {
+  padding-right: 20px;
+}
+
+.link_button > button {
+  text-decoration: #4f4f4f;
+  background-color: transparent;
+  width: 108px;
+  height: 40px;
+  padding: 15px, 36px, 15px, 36px;
+  border-radius: 8px;
+  border: 2px solid #2f80ed;
+  gap: 10px;
+}
+.eg2,
+.eg3 {
+  word-spacing: 5px;
+}
+
+.Announcement{
+    width: 100vw;
+  height: 30px;
+  background-color: #2f80ed;
+  align-items: center;
+}
+.Announcement>p{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    
+}
+.Hero Section{
+    width:50vw;
+    height: 500px;
+}
+.hero text{
+    padding-left: 50px;
+}
+.ex1{
+   
+}
+.eg4{
+    margin-top: 15px;
+    margin-left:10%;
+    background-color:  #FFFFFF;
+    ;
+    color: #4f4f4f;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    border-radius: 23px;
+    gap: 10px;
+    
+    
+    box-shadow: 0px 2px 40px 0px #0000001F;
+
+}
+.card_section{
+    background-color:  #ECF8FF;
+    
+    
+}
+.top-section{
+    padding-top: 30px;
+   
+    flex-direction: column;
+}
+.top-section>p,h2{ display: flex;
+justify-content: center;
+}
+.top-section>p{
+    transform-style: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+
+    
+}
+.top-section>h2{
+   color:  #2F80ED;
+}
+.card-1,.card-2{
+    
+margin-right: 5px;
+    background-color: white;
+    width: 350px;
+height:490px;
+border-radius: 9px;
+border: 2px solid #939596;
+
+
+}
+.eg7{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+margin-bottom: 10px;
+}
+.eg5,.eg6{
+    background-color: #FFEED8;
+    width: 50%  ;
+height:  40px;
+padding-top: 7px;
+padding-inline: 10px;
+border: none;
+border-radius: 7px;
+margin-right: 10px;
+margin-left: 15px;
+
+
+}
+.card-pargraph>p{
+   display: flex;
+   justify-content: center;
+}
+.only-card{
+    display: flex;
+    justify-content: center;
+}
+.details-1>img{
+    width: 335px;
+    padding-left: 17px;
+}
